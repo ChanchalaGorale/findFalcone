@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import Destination from "./destination";
-import "./destination.css";
-import Vehicle from "./vehicle";
+import Destination from "../Destination/Destination";
+import Vehicle from "../Vehicle/Vehicle";
 import { Link } from "react-router-dom";
-import "./FinalDestination.css";
+import "./Finaldestination.css";
 
 class FinalDestination extends Component {
   state = {

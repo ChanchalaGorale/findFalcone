@@ -1,17 +1,22 @@
 import React, { Component } from "react";
 
-import { storyPara1, storyPara2, storyPara3, Problem } from "../assets/data";
-import Logo from "../assets/logo.png";
-import Donlon from "../assets/Resources/Donlon.png";
-import Enchai from "../assets/Resources/Enchai.png";
-import Jebing from "../assets/Resources/Jebing.png";
-import Sapir from "../assets/Resources/Sapir.png";
-import Lerbin from "../assets/Resources/Lerbin.png";
-import Pingasor from "../assets/Resources/Pingasor.png";
-import SpacePod from "../assets/Resources/SpacePod.png";
-import SpaceRocket from "../assets/Resources/SpaceRocket.png";
-import SpaceShuttle from "../assets/Resources/SpaceShuttle.png";
-import SpaceShip from "../assets/Resources/SpaceShip.png";
+import {
+  storyPara1,
+  storyPara2,
+  storyPara3,
+  Problem,
+} from "../../../assets/data";
+import Logo from "../../../assets/logo.png";
+import Donlon from "../../../assets/Resources/Donlon.png";
+import Enchai from "../../../assets/Resources/Enchai.png";
+import Jebing from "../../../assets/Resources/Jebing.png";
+import Sapir from "../../../assets/Resources/Sapir.png";
+import Lerbin from "../../../assets/Resources/Lerbin.png";
+import Pingasor from "../../../assets/Resources/Pingasor.png";
+import SpacePod from "../../../assets/Resources/SpacePod.png";
+import SpaceRocket from "../../../assets/Resources/SpaceRocket.png";
+import SpaceShuttle from "../../../assets/Resources/SpaceShuttle.png";
+import SpaceShip from "../../../assets/Resources/SpaceShip.png";
 import { Link } from "react-router-dom";
 
 class Knowmore extends Component {

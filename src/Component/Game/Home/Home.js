@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import { welcome, startthegame } from "../assets/data";
+import { welcome, startthegame } from "../../../assets/data";
 
 class Home extends Component {
   constructor() {

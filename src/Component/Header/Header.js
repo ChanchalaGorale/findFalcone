@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./header.css";
-import { title, geektrusthome } from "../assets/data";
-import Logo from "../assets/logo.png";
+import "./Header.css";
+import { title, geektrusthome } from "../../assets/data";
+import Logo from "../../assets/logo.png";
 class Header extends Component {
   state = {};
   render() {

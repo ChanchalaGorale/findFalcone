@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./footer.css";
-import { problemlink } from "../assets/data";
+import "./Footer.css";
+import { problemlink } from "../../assets/data";
 
 class Footer extends Component {
   state = {};
@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <div className="text-center fixed-bottom bg-dark footer">
         <p>
-        © Coding problem - &nbsp;
+          © Coding problem - &nbsp;
           <a href={problemlink} className="footerlinnk">
             Find the Queen of Falicornia
           </a>

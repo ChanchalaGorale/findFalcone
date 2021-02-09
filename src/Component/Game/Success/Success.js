@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./success.css";
+import "./Success.css";
 import { Link } from "react-router-dom";
 
 class Success extends Component {

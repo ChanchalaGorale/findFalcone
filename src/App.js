@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./Header/header";
-import Footer from "./Footer/footer";
-import FinalDestination from "./Game/finalDestination";
-import Success from "./Game/success";
-import Home from "./Game/home";
-import Knowmore from "./Game/Knowmore";
+import Header from "./Component/Header/Header";
+import Footer from "./Component/Footer/Footer";
+import FinalDestination from "./Component/Game/FinalDestination/Finaldestination";
+import Success from "./Component/Game/Success/Success";
+import Home from "./Component/Game/Home/Home";
+import Knowmore from "./Component/Game/Home/Knowmore";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {

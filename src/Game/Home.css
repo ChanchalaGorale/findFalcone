@@ -1,0 +1,50 @@
+.jumbotron {
+  height: 900px;
+}
+.welcm-pg {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.knowmore-logo {
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: text-top;
+}
+
+.welcm-pg > h1 {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+.welcm-pg > h3 {
+  padding-bottom: 30px;
+}
+
+.wlecm-btn {
+  margin: 10px;
+}
+
+.bottom-space {
+  margin-bottom: 80px;
+}
+
+.knowmore {
+  padding-top:30px ;
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+.rounded-circle {
+  width: 50px;
+}
+
+.space-pod-img{
+  width: 50px;
+}
+
+.problem-text{
+  font-size: 25px;
+  padding: 8px;
+ 
+}

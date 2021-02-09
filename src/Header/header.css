@@ -1,0 +1,14 @@
+.nav-logo {
+  border-radius: 50%;
+}
+
+.collapse,
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link,
+.navbar-nav,
+.navbar-dark {
+  color: #fff !important;
+}

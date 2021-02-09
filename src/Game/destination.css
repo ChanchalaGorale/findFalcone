@@ -1,0 +1,35 @@
+.container {
+  min-height: 65vh;
+}
+
+.myCont {
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: auto;
+}
+
+#reset {
+  margin-top: -56px;
+  margin-right: 50px;
+}
+
+.vehicles {
+  margin-left: 10%;
+}
+
+.destination {
+  margin-bottom: 70px;
+}
+
+
+
+.findFalconeButtons {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.planetnumber {
+  visibility: hidden;
+}

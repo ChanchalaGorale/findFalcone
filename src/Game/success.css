@@ -1,0 +1,14 @@
+.container-success {
+  min-height: 65vh;
+  padding: 100px;
+  margin: 30px;
+}
+
+.back-btn {
+  margin-top: 30px;
+}
+
+.successButtons {
+  padding-left: 1%;
+  padding-right: 1%;
+}

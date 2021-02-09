@@ -23,8 +23,6 @@ button {
   margin-bottom: 70px;
 }
 
-
-
 .findFalconeButtons {
   padding-left: 1%;
   padding-right: 1%;
@@ -32,4 +30,8 @@ button {
 
 .planetnumber {
   visibility: hidden;
+}
+
+.select-planet {
+  font-size: larger;
 }

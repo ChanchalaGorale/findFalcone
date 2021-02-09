@@ -4,7 +4,7 @@ import "./Destination.css";
 class Destination extends Component {
   render() {
     return (
-      <div >
+      <div className="select-planet">
         <h3 className="planetnumber">Planet {this.props.id}</h3>
         <select
           onChange={this.props.onChange}

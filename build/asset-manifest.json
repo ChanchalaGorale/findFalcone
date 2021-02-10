@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd34280a.chunk.css",
+    "main.js": "/static/js/main.845f3a32.chunk.js",
+    "main.js.map": "/static/js/main.845f3a32.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.91b3de5c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.91b3de5c.js.map",
+    "static/js/2.982e5374.chunk.js": "/static/js/2.982e5374.chunk.js",
+    "static/js/2.982e5374.chunk.js.map": "/static/js/2.982e5374.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cd34280a.chunk.css.map": "/static/css/main.cd34280a.chunk.css.map",
+    "static/js/2.982e5374.chunk.js.LICENSE.txt": "/static/js/2.982e5374.chunk.js.LICENSE.txt",
+    "static/media/Donlon.2d672b5f.png": "/static/media/Donlon.2d672b5f.png",
+    "static/media/Enchai.3d727dc2.png": "/static/media/Enchai.3d727dc2.png",
+    "static/media/Jebing.39f48a34.png": "/static/media/Jebing.39f48a34.png",
+    "static/media/Lerbin.03e44182.png": "/static/media/Lerbin.03e44182.png",
+    "static/media/Pingasor.2e68ff26.png": "/static/media/Pingasor.2e68ff26.png",
+    "static/media/Sapir.205a321e.png": "/static/media/Sapir.205a321e.png",
+    "static/media/SpacePod.d2588ec5.png": "/static/media/SpacePod.d2588ec5.png",
+    "static/media/SpaceRocket.f36d197b.png": "/static/media/SpaceRocket.f36d197b.png",
+    "static/media/SpaceShip.6784c415.png": "/static/media/SpaceShip.6784c415.png",
+    "static/media/SpaceShuttle.79fac538.png": "/static/media/SpaceShuttle.79fac538.png",
+    "static/media/logo.7dd060f3.png": "/static/media/logo.7dd060f3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91b3de5c.js",
+    "static/js/2.982e5374.chunk.js",
+    "static/css/main.cd34280a.chunk.css",
+    "static/js/main.845f3a32.chunk.js"
+  ]
+}

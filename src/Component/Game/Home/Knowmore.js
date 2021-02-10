@@ -17,7 +17,6 @@ import SpacePod from "../../../assets/Resources/SpacePod.png";
 import SpaceRocket from "../../../assets/Resources/SpaceRocket.png";
 import SpaceShuttle from "../../../assets/Resources/SpaceShuttle.png";
 import SpaceShip from "../../../assets/Resources/SpaceShip.png";
-import { Link } from "react-router-dom";
 
 class Knowmore extends Component {
   render() {
@@ -187,11 +186,9 @@ class Knowmore extends Component {
         </div>
 
         <div className="row justify-content-center bottom-space">
-          <Link to={{ pathname: "/findFalcone", fromGame: true }}>
-            <button className="btn btn-lg btn-info">
-              Let's start the search
-            </button>
-          </Link>
+          <a href="/findFalcone" className="btn btn-lg btn-info">
+            Let's start the search
+          </a>
         </div>
       </div>
     );

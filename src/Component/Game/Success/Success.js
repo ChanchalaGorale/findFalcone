@@ -86,7 +86,7 @@ class Success extends Component {
   render() {
     var planet = this.state.planet;
     return (
-      <div className="container-success text-center">
+      <div className="card text-center success-card">
         <div>
           {this.state.loading && <i className="fa fa-refresh fa-spin"></i>}
 
@@ -96,10 +96,10 @@ class Success extends Component {
             </span>
           ) : null}
         </div>
-        <div>
-          <h1 className="text-center">{this.state.successMessage}</h1>
+        <div class="card-body text-center">
+          <h1 className="card-title">{this.state.successMessage}</h1>
           <br />
-          <h3>
+          <h3 class="card-text">
             {(planet !== null || planet !== undefined) && planet.length > 0 ? (
               <span className="font-weight-bold">
                 The queen was found on {planet}
@@ -113,19 +113,15 @@ class Success extends Component {
               </span>
             ) : null}
           </h3>
-          <br />
-        </div>
 
-        <div className="row back-btn justify-content-center">
-          <div className="successButtons">
-            <Link to={{ pathname: "/findFalcone", fromGame: true }}>
-              <button className="btn btn-lg btn-info">Play Again</button>
-            </Link>
-          </div>
-          <div className="successButtons">
-            <Link to={{ pathname: "/", fromGame: true }}>
-              <button className="btn btn-lg btn-info">Go to Home</button>
-            </Link>
+          <div className="back-btn">
+            <a href="/findFalcone" className="btn btn-lg btn-info">
+              Play Again
+            </a>
+
+            <a href="/" className="btn btn-lg btn-secondary">
+              Go to Home
+            </a>
           </div>
         </div>
       </div>

@@ -33,20 +33,20 @@ class Knowmore extends Component {
         <br />
         {/*Story*/}
         <div>
-          <h6>
+          <h5>
             {storyPara1} {storyPara2}
-          </h6>
+          </h5>
 
-          <h6>{storyPara3}</h6>
-          <p className="problem-text text-center p-2">
-            <span className="badge badge-dark">{Problem}</span>
+          <h5>{storyPara3}</h5>
+          <p className="problem-text text-center bg-dark text-light p-2">
+            {Problem}
           </p>
         </div>
 
         {/*Planets*/}
-        <div class="card border-info mb-3 text-center">
+        <div className="card border-info mb-3 text-center">
           <h2 className="card-header">Potential hideout planets</h2>
-          <div class="card-body text-info">
+          <div className="card-body text-info">
             <div id="planets" className="row">
               <div className="col text-center">
                 <figure>
@@ -122,9 +122,9 @@ class Knowmore extends Component {
         </div>
 
         {/*Space vehicle*/}
-        <div class="card border-info mb-3 text-center">
+        <div className="card border-info mb-3 text-center">
           <h2 className="card-header">Available space vehicles</h2>
-          <div class="card-body text-info">
+          <div className="card-body text-info">
             <div className="row" id="vehicles">
               <div className="col text-center">
                 <figure>

@@ -281,7 +281,7 @@ class FinalDestination extends Component {
             <h3 className="text-center p-2">
               <span class="badge badge-secondary p-2">
                 Time taken: &nbsp;
-                {this.state.totalTime}
+                {this.state.totalTime} hrs
               </span>
             </h3>
           </div>

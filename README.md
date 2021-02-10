@@ -9,3 +9,7 @@ This is the solution for Geektrusts frontend challenge.
 - Run "npm start" (now you can see the app runing in localhost:3000)
 
 ## Live app
+
+- Problem: https://www.geektrust.in/coding-problem/frontend/space
+
+- Solution: https://findfalconequeen.netlify.app/

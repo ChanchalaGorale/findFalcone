@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Success.css";
-
 
 class Success extends Component {
   planetNames = [];
@@ -115,13 +115,16 @@ class Success extends Component {
           </h3>
 
           <div className="back-btn">
-            <a href="/findFalcone" className="btn btn-lg btn-info">
-              Play Again
-            </a>
-
-            <a href="/" className="btn btn-lg btn-secondary">
-              Go to Home
-            </a>
+            <Link
+              to="/findFalcone"
+            >
+              <button className="btn btn-lg btn-info bk-btn">Play Again</button>
+            </Link>
+            <Link
+              to="/"
+            >
+              <button className="btn btn-lg btn-secondary bk-btn">Go to Home</button>
+            </Link>
           </div>
         </div>
       </div>

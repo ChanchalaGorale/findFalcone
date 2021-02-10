@@ -326,7 +326,6 @@ class FinalDestination extends Component {
                   to={{
                     pathname: "/success",
                     state: this.state.destinations,
-                    fromGame: true,
                     totalTime: this.state.totalTime,
                   }}
                 >

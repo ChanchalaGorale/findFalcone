@@ -24,13 +24,14 @@ class Vehicle extends Component {
               value={vehicle.name}
             />
             <label className="m-2">
-              {vehicle.name} (
-              {
-                this.props.vehicleCount.filter((a) => {
-                  return a.name === vehicle.name;
-                })[0].total_no
-              }
-              )
+              {vehicle.name}{" "}
+              <span>
+                {
+                  this.props.vehicleCount.filter((a) => {
+                    return a.name === vehicle.name;
+                  })[0].total_no
+                }
+              </span>
             </label>
             <br />
           </div>

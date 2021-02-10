@@ -1,5 +1,6 @@
 .vehicles {
   font-size: larger;
+  margin-left: 10%;
 }
 
 input[type=radio] {

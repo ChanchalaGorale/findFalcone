@@ -6,3 +6,26 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.myCont {
+  margin-bottom: 30px;
+}
+
+.container {
+  min-height: 65vh;
+}
+
+
+button {
+  margin-top: auto;
+}
+
+
+.destination {
+  margin-bottom: 70px;
+}
+
+.findFalconeButtons {
+  padding-left: 1%;
+  padding-right: 1%;
+}

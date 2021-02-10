@@ -36,21 +36,11 @@ class Header extends Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/">
-                <button className="nav-link">Home</button>
-              </Link>
+              <a className="nav-link" href="/">
+                Home
+              </a>
             </li>
-            <li className="nav-item">
-              <Link to="/findFalcone">
-                <button
-                  className="nav-link"
-                  data-toggle="tooltip"
-                  title="Reset the find operation"
-                >
-                  Start / Reset
-                </button>
-              </Link>
-            </li>
+
             <li className="nav-item">
               <a
                 className="nav-link"

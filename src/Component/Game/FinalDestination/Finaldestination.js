@@ -294,24 +294,27 @@ class FinalDestination extends Component {
                   style={
                     !destination.isSelected ? { height: "min-content" } : null
                   }
-                  class="card text-white bg-info mb-3 col mycard "
+                  className="col-sm-6 col-lg-3 "
                 >
-                  <Destination
-                    planets={this.state.planets}
-                    onChange={this.handleChange}
-                    destinationProps={destination}
-                    name={destination.name}
-                    key={destination.id}
-                    id={destination.id}
-                  />
-
-                  {destination.isSelected ? (
-                    <Vehicle
-                      vehicleCount={this.state.vehicles}
-                      onChange={this.handleVehicleChange}
+                  <div className="card text-white bg-info mb-3 mycard">
+                    <Destination
+                      planets={this.state.planets}
+                      onChange={this.handleChange}
                       destinationProps={destination}
+                      name={destination.name}
+                      key={destination.id}
+                      id={destination.id}
                     />
-                  ) : null}
+
+                    {destination.isSelected ? (
+                      <Vehicle
+                        vehicleCount={this.state.vehicles}
+                        onChange={this.handleVehicleChange}
+                        destinationProps={destination}
+                      />
+                    ) : null}
+                  </div>
+
                   <br />
                 </div>
               ))}
@@ -325,6 +328,7 @@ class FinalDestination extends Component {
                   disabled
                   to={{
                     pathname: "/success",
+                    fromGame: true,
                     state: this.state.destinations,
                     totalTime: this.state.totalTime,
                   }}

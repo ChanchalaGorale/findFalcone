@@ -22,12 +22,18 @@ class Home extends Component {
         <div className="welcm-pg">
           <h1>{welcome}</h1>
           <h3>{startthegame}</h3>
-          <Link to="/knowmore">
+          <Link to={{
+              pathname: "/knowmore",
+              fromGame: true,
+            }}>
             <button class="btn btn-info btn-lg wlecm-btn">
               Know about Lengaburu
             </button>
           </Link>
-          <Link to="/findFalcone">
+          <Link to={{
+              pathname: "/findFalcone",
+              fromGame: true,
+            }}>
             <button class="btn btn-info btn-lg wlecm-btn">
               Let's start the search
             </button>

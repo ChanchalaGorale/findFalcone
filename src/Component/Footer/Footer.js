@@ -9,7 +9,12 @@ class Footer extends Component {
       <div className="text-center fixed-bottom bg-dark footer">
         <p>
           © Coding problem - &nbsp;
-          <a href={problemlink} className="footerlinnk">
+          <a
+            href={problemlink}
+            className="footerlinnk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Find the Queen of Falicornia
           </a>
           .

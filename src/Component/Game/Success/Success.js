@@ -91,9 +91,7 @@ class Success extends Component {
           {this.state.loading && <i className="fa fa-refresh fa-spin"></i>}
 
           {!this.state.isConnected ? (
-            <span>
-              &nbsp;&nbsp;&nbsp;Please wait while we try to connect...
-            </span>
+            <span>&nbsp;Please wait while we try to connect...</span>
           ) : null}
         </div>
         <div class="card-body text-center">
@@ -108,7 +106,6 @@ class Success extends Component {
 
             {(planet !== null || planet !== undefined) && planet.length > 0 ? (
               <span className="font-weight-bold">
-                {" "}
                 in {this.state.totalTime} hours.
               </span>
             ) : null}
@@ -116,14 +113,22 @@ class Success extends Component {
 
           <div className="back-btn">
             <Link
-              to="/findFalcone"
+              to={{
+                pathname: "/findFalcone",
+                fromGame: true,
+              }}
             >
               <button className="btn btn-lg btn-info bk-btn">Play Again</button>
             </Link>
             <Link
-              to="/"
+              to={{
+                pathname: "/",
+                fromGame: true,
+              }}
             >
-              <button className="btn btn-lg btn-secondary bk-btn">Go to Home</button>
+              <button className="btn btn-lg btn-secondary bk-btn">
+                Go to Home
+              </button>
             </Link>
           </div>
         </div>
